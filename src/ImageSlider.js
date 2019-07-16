@@ -1,6 +1,6 @@
-import { Component } from "react";
+import React from "react";
 
-class ImageSlider extends Component {
+class ImageSlider extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -10,7 +10,7 @@ class ImageSlider extends Component {
 
     render() {
         return (
-            
+           <p>I am on slide {this.state.currentSlideIndex}</p> 
         )
     }
 } 
